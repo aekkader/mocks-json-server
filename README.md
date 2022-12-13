@@ -1,6 +1,5 @@
 # Mocks json-server
 
-
 ## Run in Local
 How to create & deploy a json-server [link](https://chrisdevcode.hashnode.dev/how-to-create-and-deploy-a-json-server)
 - Create empty folder
@@ -8,9 +7,6 @@ How to create & deploy a json-server [link](https://chrisdevcode.hashnode.dev/ho
 - npm install json-server json-server-auth json-serve cors
 - npm install -D nodemon
 - npm run start
-
-
-
 
 
 # Mocks - Json-server
