@@ -7,6 +7,7 @@ How to create & deploy a json-server [link](https://chrisdevcode.hashnode.dev/ho
 - run command >> npm init -y
 - npm install json-server json-server-auth json-serve cors
 - npm install -D nodemon
+- npm run start
 
 
 
