@@ -1,0 +1,13 @@
+{
+    "/articles": "/articles?draft=false&_embed=tags",
+    "/article-byid/:id": "/articles/:id?_embed=tags",
+    "/article-by-user/:userId": "/articles?userId=:userId&_embed=tags",
+    "/create-article": "/articles",
+    "/update-article/:id": "/articles/:id",
+
+    "/user-byid/:id": "/users/:id",
+    "/comment-by-user/:id": "/users/:id/comments",
+
+    "/auth/signup": "/register",
+    "/auth/signin": "/login"
+}

@@ -1,0 +1,8 @@
+{
+    "/auth/signup": "/register",
+    "/auth/signin": "/login",
+
+    "/roles": "/roles?_embed=permissions",
+    "/users": "/users?_expand=role",
+    "/users/:id": "/users/:id?_expand=role"
+}

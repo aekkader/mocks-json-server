@@ -1,0 +1,122 @@
+{
+    "tags": [
+        {
+            "id": 1,
+            "title": "ratione-quis",
+            "createdAt": "2022-06-07T06:01:35.858Z"
+        },
+        {
+            "id": 2,
+            "title": "doloribus-a",
+            "createdAt": "2022-06-25T16:54:38.398Z"
+        },
+        {
+            "id": 3,
+            "title": "maiores-vitae",
+            "createdAt": "2022-06-23T19:52:08.690Z"
+        },
+        {
+            "id": 4,
+            "title": "eos-reprehenderit",
+            "createdAt": "2022-10-08T10:41:16.218Z"
+        },
+        {
+            "id": 6,
+            "title": "accusantium-et",
+            "createdAt": "2022-08-12T07:44:58.086Z"
+        }
+    ],
+    "articles": [
+        {
+            "id": 1,
+            "name": "Small Concrete Fish",
+            "reference": "Intelligent Fresh Car",
+            "content": "Occaecati iste deserunt natus.\nLaudantium voluptatum recusandae.\nRecusandae aperiam nam vero.\nDucimus nihil a minima odit architecto esse porro.",
+            "fileUrl": "https://loremflickr.com/1234/2345/technics?lock=49281",
+            "createdAt": "2022-09-19T13:10:43.581Z",
+            "username": "Alfonso Bradtke I"
+        },
+        {
+            "id": 2,
+            "name": "Electronic Soft Gloves",
+            "reference": "Incredible Rubber Car",
+            "content": "Expedita odit debitis nostrum.\nSunt necessitatibus omnis doloremque beatae laudantium culpa aut.\nTemporibus ipsa dolore asperiores veritatis delectus.\nOccaecati illum ipsam deserunt.",
+            "fileUrl": "https://loremflickr.com/1234/2345/technics?lock=31086",
+            "createdAt": "2022-06-10T04:05:26.135Z",
+            "username": "Marty Hoppe"
+        },
+        {
+            "id": 3,
+            "name": "Gorgeous Concrete Chips",
+            "reference": "Bespoke Granite Keyboard",
+            "content": "Atque voluptates dolore dignissimos repellat explicabo laboriosam facilis expedita minima.\nAccusantium laborum animi corporis.\nNihil aliquam quaerat distinctio.\nIste saepe doloribus.",
+            "fileUrl": "https://loremflickr.com/1234/2345/technics?lock=90452",
+            "createdAt": "2022-04-18T10:44:38.612Z",
+            "username": "Francis Yost"
+        }
+    ],
+    "articles_tags": [
+        {
+            "id": 1,
+            "tagId": 1,
+            "articleId": 1
+        },
+        {
+            "id": 2,
+            "tagId": 2,
+            "articleId": 1
+        },
+        {
+            "id": 3,
+            "tagId": 3,
+            "articleId": 2
+        },
+        {
+            "id": 4,
+            "tagId": 4,
+            "articleId": 2
+        },
+        {
+            "id": 5,
+            "tagId": 1,
+            "articleId": 2
+        },
+        {
+            "id": 6,
+            "tagId": 6,
+            "articleId": 3
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "content": "Saepe accusamus quisquam ad animi voluptates esse hic aspernatur laboriosam.\nDolore blanditiis ratione.",
+            "username": "Nicolas Pfannerstill",
+            "articleId": 1
+        },
+        {
+            "id": 2,
+            "content": "Et ipsam illo autem dolores dolores inventore.\nRerum rerum ut ad et natus voluptas porro earum labore.",
+            "username": "Tommie Schmeler",
+            "articleId": 1
+        },
+        {
+            "id": 3,
+            "content": "Consectetur delectus quibusdam ratione vitae accusantium voluptatem facilis accusamus.\nPerspiciatis necessitatibus quaerat adipisci at dolores iusto deleniti tenetur.",
+            "username": "April Barrows",
+            "articleId": 2
+        },
+        {
+            "id": 4,
+            "content": "Quos quaerat aliquid.\nPraesentium quisquam illo impedit nulla illo minus.",
+            "username": "Irene Glover MD",
+            "articleId": 2
+        },
+        {
+            "id": 5,
+            "content": "Necessitatibus sit veritatis voluptates maxime fugit inventore veniam perferendis voluptatibus.\nQuos dolore itaque corrupti quia saepe magnam placeat.",
+            "username": "Katie Wiegand",
+            "articleId": 2
+        }
+    ]
+}

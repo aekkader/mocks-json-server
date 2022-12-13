@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "email": "aek@m.com",
+      "password": "$2a$10$EX8dVpeQeqR1P8x4v.h6qerS2hueZrFmYa1SMliKEyi54cy3/qrWS",
+      "username": "aekaek",
+      "role": "ROLE_ROOT",
+      "fileUrl": "https://loremflickr.com/1234/2345/technics?lock=76283",
+      "id": 1,
+      "permissions": []
+    },
+    {
+      "email": "aekaek002@me.com",
+      "password": "$2a$10$EX8dVpeQeqR1P8x4v.h6qerS2hueZrFmYa1SMliKEyi54cy3/qrWS",
+      "username": "aekaek002",
+      "role": "ROLE_USER",
+      "fileUrl": "https://loremflickr.com/1234/2345/technics?lock=76283",
+      "id": 2,
+      "permissions": [
+        "CREATE_ARTICLE",
+        "PRINT_ARTICLE",
+        "CREATE_COMMENT"
+      ]
+    }
+  ],
+  
+  "articles": [
+    {
+      "id": 1,
+      "name": "Practical Soft Bike",
+      "reference": "Elegant Cotton Cheese",
+      "content": "Eligendi cupiditate at excepturi consectetur animi necessitatibus.\nAt dignissimos voluptates veniam iste unde.\nSapiente error dignissimos voluptatibus deserunt maxime delectus provident sequi impedit.\nAtque praesentium hic perspiciatis cum facere libero cumque non.",
+      "fileUrl": "https://loremflickr.com/1234/2345/technics?lock=76283",
+      "createdAt": "2022-03-08T22:27:51.703Z",
+      "username": "Mr. Gerardo Mayer",
+      "draft": true,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Luxurious Concrete Chair",
+      "reference": "Handcrafted Granite Shoes",
+      "content": "Rem porro dolores quasi nisi optio sunt repellendus.\nIncidunt natus tenetur fugiat labore omnis cumque.\nPerferendis provident corrupti laborum eos alias repudiandae.\nEum nam repellendus deleniti earum tempora libero.",
+      "fileUrl": "https://loremflickr.com/1234/2345/technics?lock=21435",
+      "createdAt": "2022-04-23T18:08:44.678Z",
+      "username": "Antonia Schuppe",
+      "draft": true,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "Small Cotton Cheese",
+      "reference": "Small Cotton Computer",
+      "content": "Maxime a quas.\nDelectus nesciunt voluptatibus ipsum minima.\nNobis tempore exercitationem ratione beatae dolores fuga amet maiores.\nRem doloribus consectetur deserunt.",
+      "fileUrl": "https://loremflickr.com/1234/2345/technics?lock=31668",
+      "createdAt": "2022-05-23T09:51:53.997Z",
+      "username": "Sylvester Braun",
+      "draft": false,
+      "updatedAt": "2022-05-23T09:51:53.997Z",
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "name": "artilce local 001",
+      "reference": "001",
+      "content": "artilce local 001",
+      "draft": false
+    },
+    {
+      "name": "artilce local 002",
+      "reference": "002",
+      "content": "artilce local 001",
+      "draft": true,
+      "user_id": 2,
+      "userId": 2,
+      "tags": [
+        {
+          "id": "1"
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Nulla qui vero error nisi velit.\nError cupiditate molestiae sed minima facilis magni quis.",
+      "username": "Josh Wilderman",
+      "articleId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "content": "Laborum illum quis dicta.\nNam facilis aliquid consectetur omnis error dolorum.",
+      "username": "Shari Beatty",
+      "articleId": 1,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "content": "Suscipit quia debitis perspiciatis quae dolore molestias.\nSequi neque consectetur similique minima aliquam exercitationem aliquam velit.",
+      "username": "Henrietta Grimes DDS",
+      "articleId": 2,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "content": "Quaerat laborum saepe aliquid nostrum quam ad quidem magni.\nConsequuntur architecto veniam cumque harum rem necessitatibus quae necessitatibus eligendi.",
+      "username": "Tara Hilpert",
+      "articleId": 2
+    },
+    {
+      "id": 5,
+      "content": "Fugiat quo veritatis accusamus culpa totam molestias.\nDolor et ipsum ab.",
+      "username": "Melvin Dicki",
+      "articleId": 2
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "title": "ipsum-quae",
+      "createdAt": "2021-12-07T10:06:27.101Z",
+      "articleId": 1
+    },
+    {
+      "id": 2,
+      "title": "deserunt-doloribus",
+      "createdAt": "2022-01-21T23:01:17.805Z",
+      "articleId": 1
+    },
+    {
+      "id": 3,
+      "title": "voluptatum-deserunt",
+      "createdAt": "2022-04-04T06:06:02.520Z",
+      "articleId": 2
+    },
+    {
+      "id": 4,
+      "title": "corrupti-asperiores",
+      "createdAt": "2022-05-19T10:54:38.157Z",
+      "articleId": 2
+    },
+    {
+      "id": 5,
+      "title": "amet-repudiandae",
+      "createdAt": "2022-02-27T02:13:43.511Z",
+      "articleId": 2
+    },
+    {
+      "id": 6,
+      "title": "totam-minima",
+      "createdAt": "2022-03-04T04:52:20.272Z",
+      "articleId": 3
+    }
+  ]
+
+}
