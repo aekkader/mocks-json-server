@@ -124,6 +124,7 @@
   ],
   "traces": [
     {
+      "id":1,
       "username": "U001",
       "userFileUrl": "",
       "method": "crateUser",
@@ -131,6 +132,7 @@
       "createdAt": "2022-12-12T15:27:51.703Z"
     },
     {
+            "id":2,
       "username": "U002",
       "userFileUrl": "",
       "method": "DeleteUser",
